@@ -1,0 +1,11 @@
+- body: '{"foo":"bar"}'
+  headers:
+    user-agent: test-synthetic-monitor
+  method: POST
+  name: httpbin
+  url: https://httpbin.org/response-headers
+- headers:
+    user-agent: test-synthetic-monitor
+  method: GET
+  name: example
+  url: https://www.example.com  
